@@ -1,0 +1,56 @@
+> laravel
+
+
+1. install laravel dengan nama projectnya 'efa-webapi'
+2. ketik composer create-project --prefer-dist laravel/laravel efa-webapi
+3. membuat database "efa-webapi"
+4. manipulasi file .env
+	db
+	username
+	passsword
+5. membuat controller
+6. tambahklan di file web.php contollernya
+7. lalu coba akses di google cromenya
+
+
+> install requirements untuk frontend :
+
+1. npm install
+2. install nodejs (jika belum ada)
+3. ketik composer require laravel/ui --dev
+4. ketik php artisan ui bootstrap
+5. ketik php artisan ui vue
+6. ketik npm install 
+7. ketik npm run dev
+8. ketik npm run watch
+
+
+>install vue
+
+tools = command Palette = enter = copy vue syntax higtlight
+
+
+> vue loading bar
+1. npm install vue-progressbar
+2. tambahkan file di app.js
+3. tambahkan <vue-progress-bar></vue-progress-bar> di file examplecomponent.vue
+
+> library yang di donwnload fontend di folder node_modules
+> library yang di donwnload composer di folder vendor
+
+>vue laravel pagination
+1. npm install laravel-vue-pagination
+
+
+method => bisa diaksekusi jika ada event
+property => isinya kode biasa yang tidak bisa dieksekusi
+
+
+github.com
+
+1. pilih …or push an existing repository from the command line
+2. ketik di cmd git init
+3. copy di cmd git remote add origin https://github.com/Efanurfaijah002/efa-webapi.git
+4. ketik git add --all
+5. ketik git commit -m "init"
+6. copy git push -u origin master
