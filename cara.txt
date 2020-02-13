@@ -52,5 +52,17 @@ github.com
 2. ketik di cmd git init
 3. copy di cmd git remote add origin https://github.com/Efanurfaijah002/efa-webapi.git
 4. ketik git add --all
-5. ketik git commit -m "init"
-6. copy git push -u origin master
+5. git config user.email "efanurfaijah02@gmail.com"
+6. git config user.name "efanurfaijah002"
+7. ketik git commit -m "init"
+8. git config --local credential.helper ""
+9. copy git push -u origin master
+masukan username efanurfaijah002
+masukan email efa02nur02faijah02
+
+
+
+
+git init 
+git add --all
+git remote

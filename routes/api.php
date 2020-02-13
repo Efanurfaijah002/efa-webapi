@@ -21,3 +21,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 //   title: 'Important message',
 //   text: 'Hello user! This is a notification!'
 // });
+
+Route::resource('/student', 'StudentController');
